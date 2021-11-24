@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>>WEB4</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/dap.ico" type="image/x-icon">
+    <link rel ="package" href="package.json">
+    <script src="calculator.js" defer></script>
+
+</head>
+
+
+<body>
+<header class="mb-1">
+<div class="container-lg">
+<img class="mt-1" src="fon.gif" alt="logo">
+<div class="ht">Название сайта</div>
+</div>
+</header>
+
+<nav>
+    <div class="container-lg">
+        <ul class="nav flex-column flex-sm-row  justify-content-sm-center text-center">
+            <li class="nav-item">
+                <a class="m-1 nav-link" aria-current="page" href="#task1">Ссылки</a>
+            </li>
+            <li class="nav-item">
+                <a class="m-1 nav-link" href="#tablez">Таблица</a>
+            </li>
+            <li class="nav-item">
+                <a class= "m-1 nav-link" href="#forma">Форма</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<section class="m-2">
+    <div class="container-lg">
+        <div class="container__row d-flex flex-column">
+            <div class="conURLS p-2 bg-light">
+                <h2 class="text-center" id="task1" >Список гиперссылок</h2>
+                <ol>
+                    <li><a href="https://vk.com" id="#menu">ссылка 1</a></li>
+                    <li><a href="https://www.w3schools.com">ссылка 2</a></li>
+                    <li><a href="ftp://public.ftp-servers.example.com/mydirectory/file.zip">ссылка 3</a></li>
+                    <li><a href="fftp://sisadmin.ru/hranilishe/1.txt">ссылка 4</a></li>
+                    <li><a href="ftp://test:password@sisadmin.ru/hranilishe/1.txt" target="_blank">ссылка 5</a></li>
+                    <li><a href="#“dolor”">ссылка 6</a></li>
+                    <li><a href="https://test.html#bottom" target="_blank">ссылка 7</a></li>
+                    <li> Навигация
+                        <nav>
+                            <ul>
+                                <li><a href="#taks1">Ссылки</a></li>
+                                <li><a href="#forma">Форма</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li><a>ссылка 9</a></li>
+                    <li><a href="">ссылка 10</a></li>
+                    <li><a href="http://example.com" rel = "nofollow">ссылка 11</a></li>
+                    <li><a href="http://example.com" rel = "noindex">ссылка 12</a></li>
+                    <li><p> <a href="https://ru.wikipedia.org/wiki/Кобейн,_Курт">Курт Кобейн</a> был великим музыкантом</a>.</p></li>
+                    <li><a href="http://example.com" target="_blank"><img class="img-fluid" src="webimage.jpg"  alt="square"></a></li>
+                    <li>
+                        <img class="img-fluid" src = "webimage.jpg"  usemap = "#figuri" alt = "circle">
+                        <map name = "figuri">
+                            <area shape = "rect" coords = "400,400,200" href = "http://yandex.ru" alt = "square">
+                            <area shape = "circle" coords = "0,0,200,200" href = "http://google.com" alt = "circle">
+                        </map>
+                    </li>
+                    <li><a href="lap.html">ссылка 16</a></li>
+                    <li><a href="about/about.html">ссылка 17</a></li>
+                    <li><a href="../index.html">ссылка 18</a></li>
+                    <li><a href="../../index.html">ссылка 19</a></li>
+                    <li><a href="/">ссылка 20</a></li>
+                    <li><a href="/about">ссылка 21</a></li>
+                </ol>
+            </div>
+
+            <div class="сontainer__calc p-2 mt-2  bg-light">
+                <h2 class="text-center" id="calc">Калькулятор</h2>
+                <div class="boarding">
+                    <input type ="text" name="n1" placeholder="Количество">
+                    <input type ="text" name="n2" placeholder="Цена">
+                </div>
+                <button class="floating-button" id="proiz" onclick="proiz()">Посчитать</button>
+                <hr>
+                <p id="out">Результат:</p>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</section>
+<footer class="container_fluid d-flex justify-content-center align-items-center">
+    Кутепов Арсений 2021
+</footer>
+</body>
+</html>

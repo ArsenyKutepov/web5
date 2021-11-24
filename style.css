@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(palegoldenrod,darkseagreen,darkslategrey);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header img{
+    float:left;
+    height:100px;
+    width:100px;
+}
+header{
+    background-color: chocolate;
+    height: 110px;
+    box-shadow: 0px 5px 10px 5px navajowhite;
+}
+.ht{
+    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.conURLS a{
+    text-decoration: none;
+    color: #0f7afc;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(15, 122, 252, 0.2);
+}
+
+.conURLS a:hover{
+    border-bottom: 1px solid;
+    text-decoration: none;
+    color:#cf0000;
+    border-bottom-color: rgba(208, 64, 0, 0.2);
+}
+.conURLS a:visited{
+    text-decoration: none;
+    color: #800080;
+    border-bottom-color: rgba(128, 0, 128, 0.2);
+}
+.nav-item a{
+    background-color: gold;
+}
+table,th,td{
+    border: 1px solid brown;
+    border-color: black;
+}
+tbody tr:nth-child(odd){
+    background-color: ghostwhite;
+}
+tbody tr:nth-child(even){
+    background-color: orange;
+}
+footer{
+    background-color: mediumpurple;
+    height: 90px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
