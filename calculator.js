@@ -1,3 +1,10 @@
+window.addEventListener("DOMContentLoaded", function(event)  {
+    console.log("DOM loaded ^_^");
+
+    let buttonProiz = document.getElementById("proiz");
+    buttonProiz.addEventListener("click",proiz);
+});
+
 function proiz(){
     const check = /^-+\d+$|\d+$/;
     let num1 = document.getElementsByName("n1");
@@ -16,9 +23,3 @@ function proiz(){
 }
 
 
-window.addEventListener("DOMContentLoaded", function(event)  {
-    console.log("DOM loaded ^_^");
-
-    let buttonProiz = document.getElementById("proiz");
-    buttonProiz.addEventListener("Click",proiz);
-})
