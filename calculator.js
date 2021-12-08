@@ -6,6 +6,7 @@ window.addEventListener("DOMContentLoaded", function(event)  {
 });
 
 function proiz(){
+    check = /^-+\d+$|\d+$/;
     let num1 = document.getElementsByName("n1");
     let num2 = document.getElementsByName("n2");
 
