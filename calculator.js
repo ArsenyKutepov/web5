@@ -1,6 +1,4 @@
 
-window.addEventListener("DOMContentLoaded", function(event)  {
-    console.log("DOM loaded ^_^");
 function proiz(){
     let num1 = document.getElementById('coli').value;
     let num2 = document.getElementById('cena').value;
@@ -16,6 +14,8 @@ function proiz(){
         document.getElementById('out').innerHTML = `Результат: ${out} руб.`
     }
 }
+window.addEventListener("DOMContentLoaded", function(event)  {
+    console.log("DOM loaded ^_^");
     let buttonProiz = document.getElementById("proiz");
     buttonProiz.addEventListener("Click",proiz);
 })
