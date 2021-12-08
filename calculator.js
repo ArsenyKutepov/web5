@@ -16,11 +16,6 @@ function proiz(){
         document.getElementById('out').innerHTML = `Результат: ${out} руб.`
     }
 }
-
-
-window.addEventListener("DOMContentLoaded", function(event)  {
-    console.log("DOM loaded ^_^");
-
     let buttonProiz = document.getElementById("proiz");
     buttonProiz.addEventListener("Click",proiz);
 })
